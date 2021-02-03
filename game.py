@@ -29,7 +29,7 @@ rps=['rock', 'paper', 'scissors']
 y=random.choice(rps)
 
 print("The computer chose:",y)
-
+print("-------------------")
 
 
 #
@@ -50,18 +50,5 @@ else:
     print("The computer won. Too bad!")
 
 
-
-
-
-
-
-
-
-
-
-
-
-print("-------------------")
-print("Oh, the computer won. It's ok.")
 print("-------------------")
 print("Thanks for playing. Please play again!")
