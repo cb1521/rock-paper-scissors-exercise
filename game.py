@@ -20,12 +20,26 @@ print("You chose:",x)
 #string interpolation
 #print(f"You chose: {x}")
 
+rps=['rock', 'paper', 'scissors']
+
+#
+#validate the user selection
+
+#stop the program if the user choice is invalid
+
+x.lower()
+if x in rps:
+    pass
+else:
+    print("Please choose a valid option and try again!")
+    exit()
+
+
 
 #y="paper"
 #y=computer choice
 
 
-rps=['rock', 'paper', 'scissors']
 y=random.choice(rps)
 
 print("The computer chose:",y)
