@@ -31,14 +31,23 @@ y=random.choice(rps)
 print("The computer chose:",y)
 
 
-exit()
+
+#
+# determining who won
+#
 
 
 
-
-
-
-
+if y == "paper" and x == "scissors":
+    print("Congrats! You Won!")
+elif y == "scissors" and x == "rock":
+    print("Congrats! You Won!")
+elif y == "rock" and x == "paper":
+    print("Congrats! You Won!")
+elif y == x:
+    print("It's a tie!")
+else:
+    print("The computer won. Too bad!")
 
 
 
