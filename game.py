@@ -1,9 +1,17 @@
 # game.py
 
+#loading third party packages
+import os
 import random
 
+#from dotenv import load_dotenv 
+#load_dotenv()  
+import dotenv 
+dotenv.load_dotenv() 
+USER_NAME = os.getenv("PLAYER_NAME", default="Player One")
+
 print("-------------------")
-print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
+print(f"Welcome '{USER_NAME}' to my Rock-Paper-Scissors game...")
 print("-------------------")
 
 #
@@ -62,6 +70,7 @@ elif y == x:
     print("It's a tie!")
 else:
     print("The computer won. Too bad!")
+#above solution adapted from Slack from student Estelle Spanneut
 
 
 print("-------------------")
