@@ -8,10 +8,10 @@ import random
 #load_dotenv()  
 import dotenv 
 dotenv.load_dotenv() 
-USER_NAME = os.getenv("PLAYER_NAME", default="Player One")
+PLAYER_NAME = os.getenv("PLAYER_NAME", default="Player One")
 
 print("-------------------")
-print(f"Welcome '{USER_NAME}' to my Rock-Paper-Scissors game...")
+print(f"Welcome '{PLAYER_NAME}' to my Rock-Paper-Scissors game...")
 print("-------------------")
 
 #
@@ -44,7 +44,6 @@ else:
 
 
 
-#y="paper"
 #y=computer choice
 
 
