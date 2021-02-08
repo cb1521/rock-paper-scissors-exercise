@@ -1,6 +1,6 @@
 # Instructions
 
-This is a python version of a rock paper scissors game. Some set up is required in order to run the game properly.
+This is a python version of a rock paper scissors game. Some set up is required in order to run the game properly. Explanations loosely adapted from "my-first-app-exercise" by professor Michael Rossetti.
 
 ## Set-up
 
